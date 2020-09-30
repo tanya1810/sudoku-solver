@@ -112,8 +112,8 @@ function isPossible(board, sr, sc, val) {
     var r = sr - sr % 3;
     var c = sc - sc % 3;
 
-    for (var cr = r; cr <= r + 3; cr++) {
-        for (var cc = c; cc <= c + 3; cc++) {
+    for (var cr = r; cr < r + 3; cr++) {
+        for (var cc = c; cc < c + 3; cc++) {
             if (board[cr][cc] == val) {
                 return false;
             }
