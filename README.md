@@ -1,9 +1,9 @@
 # Sudoku Solver
 
 ## Langauge Used 
-Javascript 
-CSS
-HTML
+### Javascript 
+### CSS
+### HTML
 
 # Use
 
@@ -11,8 +11,9 @@ HTML
 
 and run 'index.html'
 
-## we can change the difficulty of the puzzle
-by changing 'difficulty=easy' in line 95 with desired level(medium, hard and random )
+## To change the difficulty level of the puzzle
+we can change difficulty level by changing 'difficulty=easy' in line 95 with desired level(medium, hard and random )
+```xhrRequest.open('get', 'https://sugoku.herokuapp.com/board?difficulty=easy(to be changed)')```
 
 # About Sudoku
 Sudoku is a logic-based, combinatorial number-placement puzzle. The objective is to fill a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 subgrids that compose the grid (also called "boxes", "blocks", or "regions") contains all of the digits from 1 to 9.If you are looking for Free Printable Sudoku Puzzles then visit this page.If you are a crossword player and then see here all NYT Crossword Answers
