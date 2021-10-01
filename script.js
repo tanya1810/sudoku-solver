@@ -12,7 +12,7 @@ function initializeTemp(temp) {
 
     for (var i = 0; i < 9; i++) {
         for (var j = 0; j < 9; j++) {
-            temp[i][j] = false;
+            temp[i][j] = true;
 
         }
     }
@@ -24,7 +24,7 @@ function setTemp(board, temp) {
     for (var i = 0; i < 9; i++) {
         for (var j = 0; j < 9; j++) {
             if (board[i][j] != 0) {
-                temp[i][j] = true;
+                temp[i][j] = false;
             }
 
         }
