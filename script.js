@@ -1,5 +1,5 @@
-var arr = [[], [], [], [], [], [], [], []]
-var temp = [[], [], [], [], [], [], [], []]
+var arr = [[], [], [], [], [], [], [], [], []]
+var temp = [[], [], [], [], [], [], [], [], []]
 
 for (var i = 0; i < 9; i++) {
     for (var j = 0; j < 9; j++) {
@@ -56,7 +56,7 @@ function resetColor() {
     }
 }
 
-var board = [[], [], [], [], [], [], [], []]
+var board = [[], [], [], [], [], [], [], [], []]
 
 
 let button = document.getElementById('generate-sudoku')
